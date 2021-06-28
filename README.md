@@ -1,8 +1,3 @@
-# myfirstrepo
+# agitr
 
-This is a little information about me.
-Name: CJ Hainley
-Job: Instructor
-Company: Univeristy of Portland
-Education: Master of Sciene in Aeronautical and Astronautical Engineering, MIT
-Bachelor of Mechanical Engineering, University of Portland
+This repository contains work from the book "A Gentle Introduction to ROS"
