@@ -6,7 +6,7 @@ project(agitr)
 
 # Find the catkin build system, and any other packages on
 # which we depend.
-find_package(catkin REQUIRED COMPONENTS roscpp geometry_msgs)
+find_package(catkin REQUIRED COMPONENTS roscpp geometry_msgs turtlesim)
 
 # Declare our catking package.
 catkin_package()
@@ -19,9 +19,11 @@ include_directories(include ${catkin_INCLUDE_DIRS})
 # this line.
 add_executable(hello hello.cpp)
 add_executable(pubvel pubvel.cpp)
+add_executable(subpose subpose.cpp)
 
 # Specify libraries against which to line.  Again, this
 # line should be copied for each distince exectuable in
 # this pacakge.
 target_link_libraries(hello ${catkin_LIBRARIES})
 target_link_libraries(pubvel ${catkin_LIBRARIES})
+target_link_libraries(subpose ${catkin_LIBRARIES})

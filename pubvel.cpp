@@ -17,7 +17,7 @@ int main(int argc, char **argv) {
   srand(time(0));
 
   // Loop at 2Hz until the node is shut down.
-  ros::Rate rate(2);
+  ros::Rate rate(1);
   while(ros::ok()) {
     // Create and fill in the message.  The other four
     // fields, which are ignored by turtlesim, default to 0
